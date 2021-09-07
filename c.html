@@ -6,11 +6,11 @@
   </head>
   <body>
       <script>
-            let mystring = 'ユーザー名';
-            
-            mystring = '太郎';
-            
-            console.log('ようこそ、' + mystring + 'さん');
+          const janken = ['グー', 'チョキ', 'パー'];
+          
+          const rnd = Math.floor(Math.random() * janken.length);
+          
+          console.log(janken[rnd]);
       </script>
   </body>
 </html>
